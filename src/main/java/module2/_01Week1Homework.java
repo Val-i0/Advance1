@@ -1,4 +1,4 @@
-package Module2;
+package module2;
 
 public class _01Week1Homework {
     public static void main(String[] args) {

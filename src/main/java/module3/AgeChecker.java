@@ -1,4 +1,4 @@
-package Module3;
+package module3;
 
 public class AgeChecker {
     public static void main(String[] args) {

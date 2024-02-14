@@ -1,4 +1,4 @@
-package Module3;
+package module3;
 
 public class PriceChecker {
     public static void main(String[] args) {
