@@ -75,6 +75,8 @@ public class Tasks4 {
             case 5: day = "Friday"; break;
             case 6: day = "Saturday"; break;
             case 7: day = "Sunday"; break;
+            default:
+                System.out.println("Invalid day of week"); break;
         }
 
         System.out.printf("You entered %d. So weekday is %s", input, day);
