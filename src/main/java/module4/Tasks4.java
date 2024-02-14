@@ -54,8 +54,19 @@ public class Tasks4 {
         System.out.println("Enter rectangle Length:");
         scan = new Scanner(System.in);
         double len = scan.nextDouble();
+
+        while (len <= 0) {
+            System.out.println("Enter positive number:");
+            len = scan.nextDouble();
+        }
+
         System.out.println("Enter rectangle Height:");
         double hei = scan.nextDouble();
+
+        while (hei <= 0) {
+            System.out.println("Enter positive number:");
+            hei = scan.nextDouble();
+        }
 
         System.out.printf("Rectangle Perimeter: 2 * (%f + %f) = %.2f%n", len, hei, 2*(len + hei));
         System.out.printf("Rectangle Area: %f * %f = %.2f", len, hei, len * hei);
