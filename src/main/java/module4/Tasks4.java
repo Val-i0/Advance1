@@ -24,6 +24,7 @@ public class Tasks4 {
 
     private static void biggestOf3Numbers() {
         int big = 0;
+//        int big = Integer.MIN_VALUE;
 
         for (int i = 1; i <= 3; i++) {
             System.out.println("Please enter a number (integers only):");
